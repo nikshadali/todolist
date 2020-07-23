@@ -1,0 +1,31 @@
+
+.toDoList{
+    width: 600px;
+    background-image: url(../img/background.jpg);
+    height: 100px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.toDoList h1{
+   padding-top: 30px;
+    color: white;
+}
+.list{
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    box-shadow: 0 8px 10px 10px rgba(0, 0,0, 0.1) ;
+   
+}
+.li{
+    font-size: 26px;
+    list-style: none;
+    border-bottom: 1px solid #4527a0;
+    padding-top: 10px;
+    color: #4527a0;
+}
+.btn{
+    border: none;
+    float: right important;
+}

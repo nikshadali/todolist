@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <title>Todo List</title>
+    
+</head>
+<body>
+    <div class="toDoList">
+        <h1>To do List</h1>
+    </div>
+    <div class="list">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-7 mt-4">
+                <input type="text" class="form-control" id="inpVal">
+
+            </div>
+            <div class="col-md-5 mt-4">
+            <button class="btn btn-success" onclick="addEvent()">Add</button>
+            <button class="btn btn-success" onclick="delAll()">RemoveAll</button>
+        </div>
+        
+    </div>
+
+        <div class="row">
+            <div class="col-md-11 mt-3">
+            <ul class="list-group" id="list">
+                
+       
+            </ul>        
+        
+        </div>
+        </div>
+
+    </div>
+    </div>
+   <script src="js/aap.js"></script>
+</body>
+</html>
